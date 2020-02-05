@@ -15,12 +15,12 @@ using std::string;
 using std::vector;
 
 // TODO: Return the system's CPU
-Processor& System::Cpu() {     
+Processor &System::Cpu() {
     return cpu_;
 }
 
 // TODO: Return a container composed of the system's processes
-vector<Process>& System::Processes() { 
+vector <Process> &System::Processes() {
     pids_ = LinuxParser::Pids();
     processes_new_ = {};
     // std::cout << "PIDS size: " << pids_.size() << std::endl;

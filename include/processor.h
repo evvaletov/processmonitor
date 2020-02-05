@@ -7,13 +7,13 @@
 using std::string;
 
 class Processor {
- public:
-  float Utilization();  // TODO: See src/processor.cpp
+public:
+    float Utilization();  // TODO: See src/processor.cpp
 
-  // TODO: Declare any necessary private members
- private:
-  std::vector<string> cpustrings;
-  int PrevIdle = 0, Idle, PrevNonIdle = 0, NonIdle, PrevTotal = 0, Total, totald, idled;
+    // TODO: Declare any necessary private members
+private:
+    std::vector <string> cpustrings;
+    int PrevIdle = 0, Idle, PrevNonIdle = 0, NonIdle, PrevTotal = 0, Total, totald, idled;
 };
 
 #endif

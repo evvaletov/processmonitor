@@ -1,0 +1,25 @@
+C:\Users\ereme\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6015.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\ereme\OneDrive\Documents\GitHub\processmonitor
+-- The C compiler identification is MSVC 19.16.27027.1
+-- The CXX compiler identification is MSVC 19.16.27027.1
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at C:/Users/ereme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/win/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find Curses (missing: CURSES_LIBRARY CURSES_INCLUDE_PATH)
+Call Stack (most recent call first):
+  C:/Users/ereme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/win/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  C:/Users/ereme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/bin/cmake/win/share/cmake-3.15/Modules/FindCurses.cmake:246 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/ereme/OneDrive/Documents/GitHub/processmonitor/cmake-build-debug/CMakeFiles/CMakeOutput.log".
